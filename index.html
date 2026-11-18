@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping cart</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid border rounded-4 p-3 d-flex flex-column justify-content-between"
+    >
+      <div class="container-cart-data d-flex justify-content-between">
+        <div class="container-data-stor">
+          <h1 id="store-name"></h1>
+          <p id="store-info"></p>
+        </div>
+      </div>
+      <div class="title d-flex justify-content-between">
+        <h2>Your Cart</h2>
+      </div>
+      <ul
+        class="style-show p-0 px-2 d-flex flex-column gap-3 rounded-3"
+        id="cart"
+      ></ul>
+      <div class="count-discaound d-flex justify-content-between">
+        <p id="count"></p>
+      </div>
+
+      <p
+        id="total"
+        class="p-style d-flex justify-content-between w-100 rounded-1 p-2"
+      ></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
